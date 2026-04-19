@@ -11,8 +11,11 @@ Track where you’ve applied, what’s moving forward, and what’s dead — all
 This app lets you:
 
 Add and manage job applications
+
 Track progress across different hiring stages
+
 View everything in a centralized dashboard
+
 Update statuses as your application moves forward
 
 ## **Tech Stack**
@@ -20,12 +23,15 @@ Update statuses as your application moves forward
 ### Frontend
 
 React
+
 HTML
+
 CSS
 
 ### Backend
 
 Node.js
+
 Express
 
 ### Database
@@ -43,6 +49,9 @@ This app keeps everything structured so you can focus on actually getting hired.
 ## **Possible Improvements**
 
 Authentication
+
 Resume / document attachments
+
 Notifications / reminders
+
 DB Connection , for now its local storage
