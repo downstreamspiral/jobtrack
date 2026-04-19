@@ -3,8 +3,8 @@ node_modules/
 server/node_modules/
 
 # Environment variables 
-.env
-server/.env
+.env.example
+server/.env.example
 
 # Vite build output
 dist/
