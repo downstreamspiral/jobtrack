@@ -60,7 +60,6 @@ export default function AddJobModal({ onClose, onSave }) {
         onClick={onClose}
       />
       <div className="relative z-10 w-full max-w-lg mx-4 bg-zinc-900 border border-zinc-800 rounded-2xl shadow-2xl">
-        {/* Header */}
         <div className="flex items-center justify-between px-6 py-4 border-b border-zinc-800">
           <h2 className="font-semibold text-zinc-100">Add New Job</h2>
           <button
@@ -71,7 +70,6 @@ export default function AddJobModal({ onClose, onSave }) {
           </button>
         </div>
 
-        {/* Form */}
         <form
           onSubmit={handleSubmit}
           className="px-6 py-5 space-y-4 max-h-[75vh] overflow-y-auto"
@@ -129,7 +127,7 @@ export default function AddJobModal({ onClose, onSave }) {
             <Field label="Salary">
               <input
                 className={inputClass}
-                placeholder="e.g. ₹4 LPA–₹15 LPA"
+                placeholder="e.g. ₹4 LPA–₹15LPA"
                 value={form.salary}
                 onChange={(e) => set("salary", e.target.value)}
               />
@@ -156,7 +154,6 @@ export default function AddJobModal({ onClose, onSave }) {
           </Field>
         </form>
 
-        {/* Footer */}
         <div className="flex justify-end gap-2 px-6 py-4 border-t border-zinc-800">
           <button
             type="button"
