@@ -1,4 +1,4 @@
-#**Job Tracker**
+# **Job Tracker**
 
 A focused job tracking app to manage your applications and keep your pipeline organized.
 
@@ -6,7 +6,7 @@ Track where you’ve applied, what’s moving forward, and what’s dead — all
 
 ---
 
-##**Overview**
+## **Overview**
 
 This app lets you:
 
@@ -15,24 +15,24 @@ Track progress across different hiring stages
 View everything in a centralized dashboard
 Update statuses as your application moves forward
 
-##**Tech Stack**
+## **Tech Stack**
 
-###Frontend
+### Frontend
 
 React
 HTML
 CSS
 
-###Backend
+### Backend
 
 Node.js
 Express
 
-###Database
+### Database
 
 PostgreSQL
 
-##**Why this exists**
+## **Why this exists**
 
 Job hunting gets messy fast.
 
@@ -40,7 +40,8 @@ Spreadsheets break. Notes get lost. You forget where you applied.
 
 This app keeps everything structured so you can focus on actually getting hired.
 
-##**Possible Improvements**
+## **Possible Improvements**
+
 Authentication
 Resume / document attachments
 Notifications / reminders
